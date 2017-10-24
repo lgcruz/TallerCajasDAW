@@ -1,0 +1,64 @@
+﻿h3{
+	margin:0px;
+	padding:0px;
+	display:inline;
+}
+header > h1 {
+	color:white;
+	text-align: center;
+	background-color:#0101DF;
+	margin-top: 10px;
+}
+div.box {
+		border:1pt solid #cbccc1;
+		padding:1px;
+		width:50%;
+		margin:auto;
+		margin-bottom:5pt;			
+}
+div.box > *{
+	margin:10pt;
+}
+div#datos > h2{
+	text-align:center;
+}
+img.foto{
+	margin:5px;
+	margin-top:0px;
+	width:20%;
+	float:left;
+}
+img.foto#profile{
+	margin-right:10px;
+	width:9%;	
+}
+p.periodo {
+	font-style:italic;
+}
+div.habilidad > div{
+	display:inline;
+	border-radius:1em;
+	padding:5pt;
+	margin:5px;
+}
+div.habilidad div:first-child{
+	background-color:#364ab4;
+	border-radius:1em;
+	position:relative;
+}
+div.habilidad div:last-child{
+	background:#d3d3d3;
+	box-shadow: 10px 10px 5px #888888;
+	padding-left: 35px;
+	margin-left: -35px;
+	margin-right: 40px;
+}
+div.habilidad{
+	display:inline;
+}
+div.cantidad_h {
+	color:white;
+}
+
+
+
