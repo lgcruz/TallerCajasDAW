@@ -1,0 +1,95 @@
+header > h1 {
+	font-size:4em;
+	color:#d39a0a;
+	box-shadow: 10px 10px 5px  #bc8609;
+	margin-top: 30px;
+}
+hr.seccion {
+    border-top:1px dotted #e0d2b1;
+
+}
+
+body {
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.6),rgba(250,255,255,0.6)), url("la-cocina-de-casa.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 60% 60%;
+}
+/*
+.flex-item h4,p{
+	line-height:0.1;
+}*/
+div#box {
+		border:1pt solid #d7d8cb;
+		padding:1px;
+		width:50%;
+		margin:auto;
+		margin-bottom:5pt;	
+}
+
+div.flex-item:hover{
+	opacity:0.7;
+}
+div.flex-item {
+    margin: 10px;
+	border-radius: 12px;
+	border:1pt solid #cbccc1;
+}
+div.flex-item > h3 {
+    font-variant:small-caps;
+}
+div.flex-item > h3 > a:link{
+	 color:#db990a;
+}
+div.flex-item > h3 > a:hover{
+	 color:#edc163;
+	 text-decoration:none;
+}
+div.flex-item > h3 > a:visited{
+	 color:#7c652e;
+}
+
+div.flex-item > h4{
+    color:#d69f2a;
+}
+div.flex-item > p{
+    padding:2px;
+	
+}
+div.flex-item#receta1{
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.5),rgba(250,255,255,0.5)), url("arroz-con-menestra-y-lomo.jpg");
+	background-size: 160%;
+}
+div.flex-item#receta2{
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.5),rgba(250,255,255,0.5)), url("apanado-de-res-con-arroz-blanco-y-pure-de-papa-2.jpg");
+	background-size: 160%;
+}
+div.flex-item#receta3{
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.5),rgba(250,255,255,0.5)), url("seco-de-pollo.jpg");
+	background-size: 160%;
+}
+div.flex-item#receta4{
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.5),rgba(250,255,255,0.5)), url("yapingacho.jpg");
+	background-size: 160%;
+	
+}
+div.flex-item#receta5{
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.5),rgba(250,255,255,0.5)), url("Hornado-de-chancho.jpg");
+	background-size: 160%;
+}
+div.flex-box{
+	display: -webkit-flex;
+    display: flex;
+}
+img.foto{
+	margin:5px;
+	margin-top:0px;
+	width:30%;
+	float:left;
+}
+div > h2 ~ p{
+	padding:20px;
+}
+
+
